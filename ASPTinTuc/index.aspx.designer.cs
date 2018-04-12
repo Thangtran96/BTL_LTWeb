@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ASPTinTuc.Page
+namespace ASPTinTuc
 {
 
 

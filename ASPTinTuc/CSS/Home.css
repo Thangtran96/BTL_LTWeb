@@ -8,5 +8,6 @@
 }
 
 #maincontent{
+    margin: 45px; 
     background-color: forestgreen;
 }

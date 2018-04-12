@@ -15,10 +15,12 @@
         <div id="page">
             <%-- menu chung --%>
             <div id="menu">
-                <ul>
-                    <li><a href="index.aspx">Trang Chủ</a></li>
-                    <li><a></a></li>
-                </ul>
+                <table>
+                    <tr>
+                        <td><a href="../index.aspx">Trang chủ</a></td>
+                        <td><a href="../Thang/Login.aspx">Đăng nhập</a></td>
+                    </tr>
+                </table>
             </div>
             <%-- khung noi dung --%>
             <div id="maincontent">
