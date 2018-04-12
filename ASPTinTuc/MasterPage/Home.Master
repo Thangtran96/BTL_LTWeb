@@ -6,7 +6,7 @@
 <head runat="server">
     <title>TinTucNews</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="\CSS\Home.css">
+    <link href="../CSS/Home.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,16 +14,16 @@
     <form id="Home" runat="server">
         <div id="page">
             <%-- menu chung --%>
-            <div id="menu">
+            <div class="menu">
                 <table>
                     <tr>
-                        <td><a href="../index.aspx">Trang chủ</a></td>
-                        <td><a href="../Thang/Login.aspx">Đăng nhập</a></td>
+                        <td class="menu"><a href="../index.aspx">Trang chủ</a></td>
+                        <td class="menu"><a href="../Thang/Login.aspx">Đăng nhập</a></td>
                     </tr>
                 </table>
             </div>
             <%-- khung noi dung --%>
-            <div id="maincontent">
+            <div class="maincontent">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>

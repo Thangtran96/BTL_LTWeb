@@ -3,11 +3,19 @@
     background-color: violet;
 }
 
-#menu{
+.menu{
     background-color:aqua;
 }
+table.menu{
+    border : 2px solid;
+}
+td.menu{
+    border-left-width: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+}
 
-#maincontent{
+.maincontent{
     margin: 45px; 
     background-color: forestgreen;
 }
