@@ -1,0 +1,12 @@
+﻿#page{
+    width: 980px;
+    background-color: violet;
+}
+
+#menu{
+    background-color:aqua;
+}
+
+#maincontent{
+    background-color: forestgreen;
+}

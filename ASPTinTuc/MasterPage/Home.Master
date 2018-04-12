@@ -4,17 +4,27 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>TinTucNews</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="\CSS\Home.css">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+    <form id="Home" runat="server">
+        <div id="page">
+            <%-- menu chung --%>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.aspx">Trang Chủ</a></li>
+                </ul>
+            </div>
+            <%-- khung noi dung --%>
+            <div id="maincontent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
     </form>
 </body>
 </html>
