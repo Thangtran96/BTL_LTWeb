@@ -70,6 +70,9 @@
     <Content Include="index.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPage\Home.Master" />
+    <Content Include="Menu.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

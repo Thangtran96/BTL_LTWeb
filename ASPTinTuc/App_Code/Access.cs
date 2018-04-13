@@ -20,7 +20,7 @@ namespace ASPTinTuc.App_Code
         public DataTable GetTable(string sql)
         {
             SqlConnection conn = GetConnect();
-            SqlDataAdapter da = new SqlDataAdapter(conn, sql);
+            SqlDataAdapter da = new SqlDataAdapter(sql,conn);
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;

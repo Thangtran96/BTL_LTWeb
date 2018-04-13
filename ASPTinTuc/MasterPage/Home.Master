@@ -9,24 +9,40 @@
     <link href="../CSS/Home.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 980px;
+        }
+
+        .auto-style2 {
+            width: 700px;
+        }
+    </style>
 </head>
 <body>
     <form id="Home" runat="server">
-        <div id="page">
-            <%-- menu chung --%>
-            <div class="menu">
-                <table>
-                    <tr>
-                        <td class="menu"><a href="../index.aspx">Trang chủ</a></td>
-                        <td class="menu"><a href="../Thang/Login.aspx">Đăng nhập</a></td>
-                    </tr>
-                </table>
-            </div>
-            <%-- khung noi dung --%>
-            <div class="maincontent">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
+        <div class="maincontent">
+            <table align="center" class="auto-style1">
+                <tr>
+                    <td colspan="2">banner</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="../index.aspx">index.aspx</a>
+                        <a href="../Thang/Login.aspx">Login.aspx</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>tin mới</td>
+                </tr>
+                <tr>
+                    <td colspan="2">footer</td>
+                </tr>
+            </table>
         </div>
     </form>
 </body>
